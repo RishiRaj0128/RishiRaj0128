@@ -29,15 +29,16 @@
 
 ### 👤 About Me
 
-I'm a Computer Science undergraduate with a strong passion for building scalable software systems, cloud-native applications, and AI-powered solutions. My primary interests lie in Backend Engineering, DevOps, Cloud Computing, Distributed Systems, and Agentic AI — I enjoy transforming complex ideas into efficient, reliable, production-ready applications.
+I am a **Backend & Distributed Systems Specialist**, **DevOps Engineer**, and **Cloud Architect** with a deep focus on **Agentic AI & Autonomous Systems**. I specialize in designing and engineering high-throughput microservices, fault-tolerant distributed architectures, automated CI/CD infrastructure, and intelligence-driven multi-agent workflows.
 
-My technical foundation includes Java, Spring Boot, Python, PostgreSQL, Redis, Docker, and modern CI/CD practices. I continuously sharpen my problem-solving through Data Structures & Algorithms while exploring system design, microservices, cloud architecture, and AI frameworks like LangChain and LangGraph.
+My technical foundation spans **Java**, **Spring Boot**, **Python**, **PostgreSQL**, **Redis**, **Docker**, **Kubernetes**, and **AWS**. I bridge the gap between robust core software engineering and state-of-the-art AI automation—building production-grade applications that scale seamlessly while leveraging modern AI frameworks like **LangChain** and **LangGraph**.
 
-I believe great engineering isn't just about writing code — it's about designing secure, maintainable, high-performance systems that solve meaningful problems. My long-term goal is to build large-scale products, lead engineering initiatives, and contribute to technologies that positively impact millions of users worldwide.
+**Primary Focus Areas:**
+- ⚙️ **Backend & Distributed Systems:** High-concurrency APIs, microservices, distributed caching, and transactional integrity.
+- ☁️ **DevOps & Cloud Architecture:** Containerization, Kubernetes orchestration, infrastructure as code, and cloud deployment pipelines (AWS).
+- 🧠 **Agentic AI & Automation:** Multi-agent orchestration, stateful RAG systems, and autonomous workflow design.
 
-**Open To:** Internships · Open Source Collaboration · Backend / Cloud / AI Engineering Roles
-
-> 🎯 Build world-class products · Contribute to open source · Design software at global scale
+> 🎯 *Designing resilient software, scaling cloud infrastructure, and engineering the future of agentic AI.*
 
 ---
 
