@@ -1,4 +1,4 @@
-﻿<p align="center">
+<p align="center">
   <img src="./avatar.svg" width="150" height="150" alt="Rishi Raj Constellation Avatar" />
 </p>
 
@@ -21,21 +21,21 @@
 
 ---
 
-### ≡ƒæñ About Me
+### 👤 About Me
 
-I'm a Computer Science undergraduate with a strong passion for building scalable software systems, cloud-native applications, and AI-powered solutions. My primary interests lie in Backend Engineering, DevOps, Cloud Computing, Distributed Systems, and Agentic AI ΓÇö I enjoy transforming complex ideas into efficient, reliable, production-ready applications.
+I'm a Computer Science undergraduate with a strong passion for building scalable software systems, cloud-native applications, and AI-powered solutions. My primary interests lie in Backend Engineering, DevOps, Cloud Computing, Distributed Systems, and Agentic AI — I enjoy transforming complex ideas into efficient, reliable, production-ready applications.
 
 My technical foundation includes Java, Spring Boot, Python, PostgreSQL, Redis, Docker, and modern CI/CD practices. I continuously sharpen my problem-solving through Data Structures & Algorithms while exploring system design, microservices, cloud architecture, and AI frameworks like LangChain and LangGraph.
 
-I believe great engineering isn't just about writing code ΓÇö it's about designing secure, maintainable, high-performance systems that solve meaningful problems. My long-term goal is to build large-scale products, lead engineering initiatives, and contribute to technologies that positively impact millions of users worldwide.
+I believe great engineering isn't just about writing code — it's about designing secure, maintainable, high-performance systems that solve meaningful problems. My long-term goal is to build large-scale products, lead engineering initiatives, and contribute to technologies that positively impact millions of users worldwide.
 
-**Open To:** Internships ┬╖ Open Source Collaboration ┬╖ Backend / Cloud / AI Engineering Roles
+**Open To:** Internships · Open Source Collaboration · Backend / Cloud / AI Engineering Roles
 
-> ≡ƒÄ» Build world-class products ┬╖ Contribute to open source ┬╖ Design software at global scale
+> 🎯 Build world-class products · Contribute to open source · Design software at global scale
 
 ---
 
-### ≡ƒÆ╗ Tech Stack
+### 💻 Tech Stack
 
 **Languages**
 <p align="left">
@@ -82,7 +82,7 @@ I believe great engineering isn't just about writing code ΓÇö it's about desi
   <img src="https://img.shields.io/badge/Linux-3B82F6?style=for-the-badge&logo=linux&logoColor=white" />
   <img src="https://img.shields.io/badge/CI%2FCD-1E1B4B?style=for-the-badge&logo=git&logoColor=white" />
 </p>
-<p><i>*(actively building production experience ΓÇö see projects below)*</i></p>
+<p><i>*(actively building production experience — see projects below)*</i></p>
 
 **AI & ML**
 <p align="left">
@@ -115,7 +115,7 @@ I believe great engineering isn't just about writing code ΓÇö it's about desi
 
 ---
 
-### ≡ƒºá AI / ML Expertise
+### 🧠 AI / ML Expertise
 
 | Domain | Proficiency | Details |
 | :--- | :--- | :--- |
@@ -126,21 +126,21 @@ I believe great engineering isn't just about writing code ΓÇö it's about desi
 
 ---
 
-### ≡ƒÜÇ Featured Projects
+### 🚀 Featured Projects
 
 <details open>
-<summary><b>≡ƒöù URL Shortener with Click Analytics</b></summary>
+<summary><b>🔗 URL Shortener with Click Analytics</b></summary>
 <br />
 
 <table>
 <tr>
 <td>
-<h3>≡ƒöù URL Shortener with Click Analytics</h3>
+<h3>🔗 URL Shortener with Click Analytics</h3>
 <p>A production-grade URL shortening platform with QR code generation, click tracking, and an analytics dashboard showing device, browser, and geographic breakdowns.</p>
 
 | Metric / Aspect | Details |
 | :--- | :--- |
-| **Stack** | Java ┬╖ Spring Boot ┬╖ Spring Security ┬╖ Spring Data JPA ┬╖ PostgreSQL ┬╖ Redis ┬╖ Flyway ┬╖ ZXing ┬╖ React ┬╖ Tailwind CSS ┬╖ JWT ┬╖ Bucket4j |
+| **Stack** | Java · Spring Boot · Spring Security · Spring Data JPA · PostgreSQL · Redis · Flyway · ZXing · React · Tailwind CSS · JWT · Bucket4j |
 | **Scale** | Multi-user support with JWT authentication and rate-limiting to prevent resource abuse. |
 | **Performance** | Cache-aside pattern via Redis reduces database load; asynchronous click logging via Spring `@Async` ensures zero redirect latency. |
 | **Security** | Rate-limited shorten endpoints using Token Bucket algorithm (Bucket4j); secure password hashing and JWT-based session management. |
@@ -154,7 +154,7 @@ I believe great engineering isn't just about writing code ΓÇö it's about desi
 - **Interactive Dashboard:** Frontend powered by React and Recharts showing clicks over time, device/browser distributions, and geographic breakdowns.
 
 <p align="right">
-  <a href="https://github.com/RishiRaj0128">≡ƒôé Repository</a>
+  <a href="https://github.com/RishiRaj0128">📂 Repository</a>
 </p>
 </td>
 </tr>
@@ -164,18 +164,18 @@ I believe great engineering isn't just about writing code ΓÇö it's about desi
 <br />
 
 <details open>
-<summary><b>≡ƒô▓ QR-Based Event Check-In System</b></summary>
+<summary><b>📲 QR-Based Event Check-In System</b></summary>
 <br />
 
 <table>
 <tr>
 <td>
-<h3>≡ƒô▓ QR-Based Event Check-In System</h3>
+<h3>📲 QR-Based Event Check-In System</h3>
 <p>A full-stack event management platform where attendees receive HMAC-signed QR tickets and organizers verify entry through a real-time scanning dashboard with WebSocket-powered live sync.</p>
 
 | Metric / Aspect | Details |
 | :--- | :--- |
-| **Stack** | Java ┬╖ Spring Boot ┬╖ Spring Security ┬╖ Spring WebSocket ┬╖ STOMP ┬╖ Spring Data JPA ┬╖ PostgreSQL ┬╖ Flyway ┬╖ ZXing ┬╖ JWT ┬╖ HMAC-SHA256 ┬╖ Bucket4j ┬╖ React ┬╖ Tailwind CSS ┬╖ html5-qrcode |
+| **Stack** | Java · Spring Boot · Spring Security · Spring WebSocket · STOMP · Spring Data JPA · PostgreSQL · Flyway · ZXing · JWT · HMAC-SHA256 · Bucket4j · React · Tailwind CSS · html5-qrcode |
 | **Scale** | Handles concurrent scans efficiently via database-level atomic transitions and stateless ticket validation. |
 | **Performance** | Stateless HMAC verification bypasses database lookups during code scans, minimizing check-in processing time. |
 | **Security** | Cryptographically signed tickets using HMAC-SHA256 prevent ticket tampering and forgery. Rate-limited public registration. |
@@ -188,7 +188,7 @@ I believe great engineering isn't just about writing code ΓÇö it's about desi
 - **Rate-Limited Public Registration:** Unauthenticated registration endpoints are rate-limited to mitigate spam signups.
 
 <p align="right">
-  <a href="https://github.com/RishiRaj0128">≡ƒôé Repository</a>
+  <a href="https://github.com/RishiRaj0128">📂 Repository</a>
 </p>
 </td>
 </tr>
@@ -197,22 +197,22 @@ I believe great engineering isn't just about writing code ΓÇö it's about desi
 
 ---
 
-### ≡ƒÆ╝ Experience
+### 💼 Experience
 
 | Period | Role | Organization |
 | :--- | :--- | :--- |
-| **June 2025 ΓÇô July 2025**<br />*(6 weeks)* | **AI & Machine Learning Intern** | **Edunet Foundation** *(in collaboration with AICTE)* |
+| **June 2025 – July 2025**<br />*(6 weeks)* | **AI & Machine Learning Intern** | **Edunet Foundation** *(in collaboration with AICTE)* |
 
 **Scope of Work:**
 - Built and evaluated ML models (classification/regression) as part of a structured AI/ML training program implemented under AICTE's industry collaboration initiative.
 - Applied end-to-end ML workflow: data preprocessing, feature engineering, model selection, and evaluation using Python and Scikit-learn.
 
 **Skills Utilized:**
-`Python` ┬╖ `Machine Learning` ┬╖ `Scikit-learn` ┬╖ `Data Preprocessing` ┬╖ `Model Evaluation`
+`Python` · `Machine Learning` · `Scikit-learn` · `Data Preprocessing` · `Model Evaluation`
 
 ---
 
-### ≡ƒÄ» Coding Profiles
+### 🎯 Coding Profiles
 
 <p align="center">
   <a href="https://leetcode.com/u/Rishiraj7486/"><img src="https://img.shields.io/badge/LeetCode-Rishiraj7486-7C3AED?style=for-the-badge&logo=leetcode&logoColor=white" /></a>
@@ -224,7 +224,7 @@ I believe great engineering isn't just about writing code ΓÇö it's about desi
 
 ---
 
-### ≡ƒôè GitHub Analytics
+### 📊 GitHub Analytics
 
 <p align="center">
   <img src="https://github-stats-extended.vercel.app/api?username=RishiRaj0128&show_icons=true&bg_color=0a0c16&title_color=a78bfa&icon_color=7c3aed&text_color=e2e8f0&border_color=1e1b4b" alt="GitHub Stats" width="48%" />
@@ -236,7 +236,7 @@ I believe great engineering isn't just about writing code ΓÇö it's about desi
 
 ---
 
-### ≡ƒÅå GitHub Trophies
+### 🏆 GitHub Trophies
 
 <p align="center">
   <img src="https://github-profile-trophy-unserori.vercel.app/?username=RishiRaj0128&theme=dracula&no-background=true&margin-w=15&margin-h=15" alt="GitHub Trophies" />
@@ -244,7 +244,7 @@ I believe great engineering isn't just about writing code ΓÇö it's about desi
 
 ---
 
-### ≡ƒÄ» Current Focus
+### 🎯 Current Focus
 
 ```yaml
 current_focus:
@@ -252,7 +252,7 @@ current_focus:
     - "Distributed Systems & System Design"
     - "Spring Cloud & Microservices Architecture"
     - "Kubernetes & Container Orchestration"
-    - "AWS Cloud Practitioner ΓåÆ Solutions Architect path"
+    - "AWS Cloud Practitioner → Solutions Architect path"
     - "LangChain & Agentic AI Frameworks"
   building:
     - "URL Shortener with Click Analytics (Spring Boot + Redis + PostgreSQL)"
