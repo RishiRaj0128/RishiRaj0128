@@ -21,6 +21,12 @@
 
 ---
 
+
+> [!NOTE]
+> **Welcome to my new GitHub profile!** 👋  
+> My previous GitHub account was **[@RishiRaj1100](https://github.com/RishiRaj1100)** (which is no longer accessible). All 2+ years of project repositories, complete commit history, and past contributions have been fully migrated to this new account. Welcome & happy coding! 🚀
+
+
 ### 👤 About Me
 
 I'm a Computer Science undergraduate with a strong passion for building scalable software systems, cloud-native applications, and AI-powered solutions. My primary interests lie in Backend Engineering, DevOps, Cloud Computing, Distributed Systems, and Agentic AI — I enjoy transforming complex ideas into efficient, reliable, production-ready applications.
