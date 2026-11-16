@@ -147,18 +147,18 @@ My technical foundation spans **Java**, **Spring Boot**, **Python**, **PostgreSQ
 
 | Metric / Aspect | Details |
 | :--- | :--- |
-| **Stack** | Java · Spring Boot · Spring Security · Spring Data JPA · PostgreSQL · Redis · Flyway · ZXing · React · Tailwind CSS · JWT · Bucket4j |
-| **Scale** | Multi-user support with JWT authentication and rate-limiting to prevent resource abuse. |
-| **Performance** | Cache-aside pattern via Redis reduces database load; asynchronous click logging via Spring `@Async` ensures zero redirect latency. |
-| **Security** | Rate-limited shorten endpoints using Token Bucket algorithm (Bucket4j); secure password hashing and JWT-based session management. |
-| **Impact** | Fully automated redirection pipeline that handles high-throughput analytics tracking concurrently. |
+| **Stack** | Java 25 · Spring Boot 4 · Redis Streams · PostgreSQL · Resilience4j · Bucket4j · React · Tailwind CSS · JWT · Docker · Terraform |
+| **Scale** | Multi-node cluster orchestration behind Nginx with distributed rate limiting and consumer group stream scaling. |
+| **Performance** | Redis cache-aside redirect fast path (< 3 ms) decoupled from async analytics ingestion via Redis Streams; Resilience4j fail-fast circuit breaker. |
+| **Security** | Distributed Redis Lua token bucket rate limiting (Bucket4j fallback); multi-stage SSRF defense blocking RFC-1918 subnets and cloud metadata; HMAC-SHA256 IP privacy. |
+| **Impact** | High-throughput, fault-tolerant redirection pipeline with real-time sliding-window bot detection and Bayesian A/B link optimization. |
 
 **Key Highlights:**
-- **Base62 Encoding:** Hash-based short code generation with base62 encoding and collision-retry logic.
-- **Cache-Aside Pattern:** Redis integration to cache redirect mappings, falling back to PostgreSQL only on cache misses.
-- **Asynchronous Click Analytics:** Spring `@Async` processes geolocation lookup and browser/device parsing in the background without delaying user redirects.
-- **API Rate Limiting:** JWT-secured user accounts protected by Bucket4j rate-limiting.
-- **Interactive Dashboard:** Frontend powered by React and Recharts showing clicks over time, device/browser distributions, and geographic breakdowns.
+- **Distributed Snowflake IDs:** 64-bit zero-coordination Snowflake IDs (timestamp + worker ID + sequence) bijectively mapped to Base62 (collision-free by construction, zero DB sequence locks).
+- **Cache-Aside & Circuit Breaker:** Redis cache-aside for redirect lookups with Resilience4j circuit breaker fail-fast fallback to PostgreSQL during cache degradation.
+- **Decoupled Stream Analytics:** Redis Streams (`XREADGROUP`, explicit `XACK`, `XPENDING` idle recovery) with two-tier idempotency (Redis `SET NX` + PostgreSQL unique constraint).
+- **Traffic Intelligence & A/B Routing:** Sliding-window Robust Z-Score (Median + MAD) bot burst quarantine; Bayesian Thompson Sampling (Beta-Bernoulli) dynamic landing page optimization.
+- **Interactive Dashboard & Observability:** React/Recharts analytics interface, Prometheus alert rules (latency SLO, 5xx rate), Grafana provisioning, and W3C distributed trace propagation.
 
 <p align="right">
   <a href="https://github.com/RishiRaj0128">📂 Repository</a>
